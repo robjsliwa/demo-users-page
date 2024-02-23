@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import singleSpaReact from "single-spa-react";
 import Root from "./root.component";
 
+export const Users = () => <div>Users</div>;
+
 const lifecycles = singleSpaReact({
   React,
   ReactDOM,
